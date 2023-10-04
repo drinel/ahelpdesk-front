@@ -31,5 +31,17 @@ mat-form-field {
 
 table {
     width: 100%;
+    background-color: rgba(136, 219, 219, 0.986);
   }
   
+  .paginator {
+   background-color: rgba(136, 219, 219, 0.986);
+  }
+
+  .edit {
+   color: rgb(182, 182, 2);
+  }
+
+  .delete {
+   color: red;
+  }
