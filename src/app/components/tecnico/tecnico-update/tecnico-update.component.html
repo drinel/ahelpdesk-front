@@ -1,6 +1,6 @@
 <div class="container mat-elevation-z8">
     <form class="form">
-        <h1 class="fullWidth">Cadastrar Técnico</h1>
+        <h1 class="fullWidth">Atualizar Técnico</h1>
         <img class="fullWidth" src="assets/img/tecnico-create.svg" alt="Helpdesk">
 
 
@@ -39,8 +39,8 @@
                 <mat-icon matSuffix>password</mat-icon>
               </mat-form-field>
 
-              <button (click)="create()" [disabled]="!validarCampos()" class="fullWidth" mat-raised-button color="primary">Cadastrar</button>
+              <button (click)="update()" [disabled]="!validarCampos()" class="fullWidth" mat-raised-button color="primary">Atualizar</button>
               
-              <button class="fullWidth" mat-raised-button color="warn" routerLink="../">Cancelar</button>
+              <button class="fullWidth" mat-raised-button color="warn" routerLink="../../">Cancelar</button>
     </form>
 </div>
