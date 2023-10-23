@@ -1,5 +1,4 @@
 import { Component } from '@angular/core';
-import { FormControl, Validators } from '@angular/forms';
 import { Router, ActivatedRoute } from '@angular/router';
 import { ToastrService } from 'ngx-toastr';
 import { Tecnico } from 'src/app/models/tecnico';

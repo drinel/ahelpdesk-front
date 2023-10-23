@@ -1,0 +1,47 @@
+.container {
+   width: 90%;
+   margin: 1rem auto;
+}
+
+h1{
+   width: 100%;
+   text-align: center;
+}
+
+button {
+   width: 40%;
+}
+
+.buttons{
+margin: 1rem;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+
+mat-form-field {
+   width: 30%;
+}
+
+.filter{
+   display: flex;
+   align-items: flex-end;
+   justify-content: flex-end;
+}
+
+table {
+    width: 100%;
+    background-color: rgba(136, 219, 219, 0.986);
+  }
+  
+  .paginator {
+   background-color: rgba(136, 219, 219, 0.986);
+  }
+
+  .edit {
+   color: rgb(182, 182, 2);
+  }
+
+  .delete {
+   color: red;
+  }
