@@ -5,7 +5,7 @@
   <form class="form">
     <mat-form-field class="full-width" appearance="outline">
       <mat-label>Título do Chamado</mat-label>
-      <input matInput placeholder="Ex. Trocar tela monitor">
+      <input [formControl]="titulo" required matInput placeholder="Ex. Trocar tela monitor">
     </mat-form-field>
   
   </form>
@@ -13,7 +13,7 @@
    <div class="status-prioridade">
     <mat-form-field appearance="outline">
         <mat-label>Selecione um status</mat-label>
-        <mat-select>
+        <mat-select [formControl]="status" required>
           <mat-option value="0">ABERTO</mat-option>
           <mat-option value="1">EM ANDAMENTO </mat-option>
           <mat-option value="2">ENCERRADO </mat-option>
@@ -22,7 +22,7 @@
       
       <mat-form-field appearance="outline">
         <mat-label>Selecione uma prioridade</mat-label>
-        <mat-select>
+        <mat-select [formControl]="prioridade" required>
           <mat-option value="0">BAIXA</mat-option>
           <mat-option value="1">MÉDIA </mat-option>
           <mat-option value="2">ALTA </mat-option>
@@ -34,7 +34,7 @@
 
       <mat-form-field class="full-width" appearance="outline">
         <mat-label>Selecione técnico</mat-label>
-        <mat-select>
+        <mat-select [formControl]="tecnico" required>
           <mat-option value="0">valdir</mat-option>
         </mat-select>
       </mat-form-field>
@@ -45,7 +45,7 @@
 
     <mat-form-field class="full-width" appearance="outline">
       <mat-label>Selecione cliente</mat-label>
-      <mat-select>
+      <mat-select [formControl]="cliente" required>
         <mat-option value="0">Einstein</mat-option>
       </mat-select>
     </mat-form-field>
@@ -57,11 +57,11 @@
 
     <mat-form-field class="full-width" appearance="outline">
       <mat-label>Descrição</mat-label>
-      <textarea class="descricao" matInput placeholder="Digite sua descrição"></textarea>
+      <textarea [formControl]="descricao" required class="descricao" matInput placeholder="Digite sua descrição"></textarea>
     </mat-form-field>
   </form>
 
-  <button mat-raised-button color="primary">Criar</button>
+  <button [disabled]="!validaCampos()" mat-raised-button color="primary">Criar</button>
   <button mat-raised-button color="warn">Cancelar</button>
 
 </div>
