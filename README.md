@@ -7,3 +7,8 @@ O sistema está rodando na nuvem sendo o front na Vercel e o back no heroku pore
 O projeto tem como objetivo principal abordar os conceitos de CRUD, apis rest, aplicações SPAs, Autenticação e Autorização com Tokens JWT e muito mais. 
 
 Link para visualização no "About".
+
+![Captura de tela 2023-11-02 101810](https://github.com/drinel/ahelpdesk-front/assets/26626189/886234cd-46ac-4db3-921b-a42a273701a1)
+![Captura de tela 2023-11-02 101833](https://github.com/drinel/ahelpdesk-front/assets/26626189/fb769008-c393-4dbc-93b0-e07880cdbb5c)
+![Captura de tela 2023-11-02 101857](https://github.com/drinel/ahelpdesk-front/assets/26626189/245e9886-a104-4ac0-bf57-bc080b48b828)
+![Captura de tela 2023-11-02 101917](https://github.com/drinel/ahelpdesk-front/assets/26626189/c54c635b-e0dd-488a-9203-0d59f7025490)
