@@ -6,7 +6,7 @@ Sistema para gerenciamento de chamados simulando um simples Help Desk desenvolvi
 O sistema está rodando na nuvem sendo o front na Vercel e o back no heroku porem este se tornou pago então por hora, so funciona subindo back localmente.
 O projeto tem como objetivo principal abordar os conceitos de CRUD, apis rest, aplicações SPAs, Autenticação e Autorização com Tokens JWT e muito mais. 
 
-Link para visualização no "About".
+Link para visualização no "About"(Serviços de hospedagem em nuvem usados, se tornaram pagos, portanto não está sendo possível acessar o site corretamente).
 
 ![Captura de tela 2023-11-02 101810](https://github.com/drinel/ahelpdesk-front/assets/26626189/886234cd-46ac-4db3-921b-a42a273701a1)
 ![Captura de tela 2023-11-02 101833](https://github.com/drinel/ahelpdesk-front/assets/26626189/fb769008-c393-4dbc-93b0-e07880cdbb5c)
